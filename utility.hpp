@@ -9,8 +9,8 @@
 
 namespace dps
 {
-    std::map<uintmax_t,boost::filesystem::path>
-        MapAllFiles(std::string);
+    std::map<uintmax_t,std::vector<boost::filesystem::path>>
+        MapAllFiles(boost::filesystem::path);
 }
 
 
