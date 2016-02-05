@@ -5,6 +5,8 @@ using namespace std;
 int main()
 {
     cout << "Hello world!" << endl;
-    auto r=dps::MapAllFiles("C:\\amd");
+    vector<boost::filesystem::path> roots;
+    roots.push_back("C:\amd");
+    auto r=dps::MapFilesBySize(roots);
     return 0;
 }

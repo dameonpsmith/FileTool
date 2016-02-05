@@ -1,17 +1,19 @@
 # depslib dependency file v1.0
-1454620861 source:c:\users\dameo\documents\github\filetool\main.cpp
+1454702982 source:c:\users\dameo\documents\github\filetool\main.cpp
 	<iostream>
 	"utility.hpp"
 
-1454621111 source:c:\users\dameo\documents\github\filetool\utility.cpp
+1454701320 source:c:\users\dameo\documents\github\filetool\utility.cpp
 	"utility.hpp"
 
-1454621111 c:\users\dameo\documents\github\filetool\utility.hpp
+1454706852 c:\users\dameo\documents\github\filetool\utility.hpp
 	<fstream>
 	<map>
 	<vector>
 	<iostream>
 	<boost\filesystem.hpp>
+	<algorithm>
+	<iterator>
 
 1453234909 c:\boost_1_60_0\boost_1_60_0\boost\filesystem.hpp
 	<boost/filesystem/config.hpp>
